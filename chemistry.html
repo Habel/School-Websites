@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="site.css">
+        <title>Capsaicin</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript">
+            var info = new Array();
+
+            info[0] = "Capsaicin's melting point and boiling point are 62 deg celcius and 210 deg celcius, respectively.\n" +
+                      "Its most common name is simply capsaicin, however there are lesser forms of it named dihydrocapsaicin, nordihydrocapsaicin, " +
+                      "homodihydrocapsaicin, homocapsaicin, and nonivamide. It is most commonly found in " + 
+                      "peppers.";
+            info[1] = "Capsaicin has many uses in many fields. Its most commonly known use is in cooking, where it is " +
+                      "used to add spice to a dish. Just recently there have been drinks that have capsaicin in them to " +
+                      "make the drink more spicy. It also has uses in the medicinal field. It has been used in ointments to " +
+                      "ease the pain of shingles and similar diseases. It is also used in creams to dull aches and pains. " +
+                      "It is used to regulate blood sugar levels in diabetics, and it has also miraculously reversed " +
+                      "diabetes in a mouse. It has also been used to kill lung and prostate cancer cells, however this " +
+                      "is still very experimental. Lastly it is used for other various uses, such as in riot control " +
+                      "in the form of pepper spray, which irritates the eyes and sinuses of the people who are sprayed by " +
+                      "it. It is also used in things like bird feed to deter mammalian pests, such as squirrels, from " +
+                      "eating the seed.";
+            info[2] = "Citation - http://en.wikipedia.org/wiki/Capsaicin"           
+
+            function setResources(num)
+            {
+                $('#story').text(info[num]);
+            }
+        </script>
+        <style type="text/css">
+            body { margin-top: 0%; }
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            <font size="14">Capscaicin</font>
+            <h1>C<sub>18</sub>H<sub>27</sub>NO<sub>3</sub></h1>
+
+            <div>
+                <img src="Chemistry/Images/Capsaicin.jpg" alt="capsaicin" /> 
+            </div>
+            <br />
+            <div id="time-line">
+                <div style="left: 28%" id="node0" onmouseover="setResources(0)"><img src="Chemistry/Images/Facts.png" alt="facts"/></div>
+                <div style="left: 48%" id="node1" onmouseover="setResources(1)"><img src="Chemistry/Images/Uses.png" alt="uses"/></div> 
+                <div style="left: 68%" id="node2" onmouseover="setResources(2)"><img src="Chemistry/Images/Citation.png" alt="citation"/></div>
+            </div>
+
+            <div id="story-box-chemistry">
+                <p><font size="5" face="Century Gothic" id="story"> </font></p>
+            </div>
+        </div>
+    </body>
+</html>
