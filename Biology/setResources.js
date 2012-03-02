@@ -1,6 +1,6 @@
 var info = new Array();
 
-info[0] = "Big businesses like Monsato make much profit from genetically modified organisms. They create crops " +
+info[0] = "Big businesses like Monsanto make much profit from genetically modified organisms. They create crops " +
           "which can be grown easier than natural crops. The modified crops that they produce have many " +
           "beneficial traits that are not present in natural crops, i.e. crops which are resistant to herbicide " +
           "or do not need pesticide. These crops yield more crop and have less failed crops where farmers lose a lot " +
